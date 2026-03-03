@@ -1,4 +1,4 @@
-# Spatially Optimized Electrification of Methanol Production
+# Spatially optimized electrification accelerating sustainable methanol production
 
 GAMS Optimization Model + Python Figure Reproduction
 
