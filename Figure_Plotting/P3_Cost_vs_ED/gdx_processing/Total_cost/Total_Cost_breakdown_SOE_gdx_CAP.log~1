@@ -1,0 +1,60 @@
+
+--- Job Total_Cost_breakdown_SOE_gdx_CAP.gms Start 09/25/25 23:23:35 48.6.1 67fbb04b WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    D:\GAMS\48\gmsprmNT.txt
+    C:\Users\Demi\OneDrive\�ĵ�\GAMS\gamsconfig.yaml
+--- GAMS Parameters defined
+    Input F:\2025_Methanol_synthesis\3_GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Total_Cost_breakdown_SOE_gdx_CAP.gms
+    PageSize 0
+    ScrDir F:\2025_Methanol_synthesis\3_GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\225c\
+    SysDir D:\GAMS\48\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Zuming Liu, Single User License                S250728|0002AO-GEN
+          Shanghai Jiao Tong University, College of Smart Energy    DC16679
+          C:\Users\Demi\OneDrive\�ĵ�\GAMS\gamslice.txt
+          zmliu@sjtu.edu.cn                                                
+          The maintenance period of the license will expire on Oct 26, 2025
+Processor information: 1 socket(s), 8 core(s), and 16 thread(s) available
+GAMS 48.6.1   Copyright (C) 1987-2025 GAMS Development. All rights reserved
+--- Starting compilation
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(27) 2 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Provinces.csv  id = j  index = 1  useHeader = y
+No errors, CSV2GDX time = 16ms
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(28) 2 Mb
+--- GDXin=F:\2025_Methanol_synthesis\3_GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Provinces.gdx
+--- GDX File ($gdxIn) F:\2025_Methanol_synthesis\3_GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Provinces.gdx
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(32) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Cities.csv  id = ix  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(33) 3 Mb
+--- GDXin=F:\2025_Methanol_synthesis\3_GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Cities.gdx
+--- GDX File ($gdxIn) F:\2025_Methanol_synthesis\3_GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Cities.gdx
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(38) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Cities_w_MeOH.csv  id = i  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(39) 3 Mb
+--- GDXin=F:\2025_Methanol_synthesis\3_GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Cities_w_MeOH.gdx
+--- GDX File ($gdxIn) F:\2025_Methanol_synthesis\3_GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Cities_w_MeOH.gdx
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(79) 3 Mb
+--- GDXin=F:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2040\ED8\S_SOE_2040_ED8.gdx
+--- GDX File ($gdxIn) F:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2040\ED8\S_SOE_2040_ED8.gdx
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(276) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\CEF_grid.csv  id = CF_CO2  index = 1  values = 2..lastCol  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(277) 3 Mb
+--- GDXin=F:\2025_Methanol_synthesis\3_GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\CEF_grid.gdx
+--- GDX File ($gdxIn) F:\2025_Methanol_synthesis\3_GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\CEF_grid.gdx
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(281) 3 Mb
+--- GDXin=F:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2040\ED8\S_SOE_2040_ED8.gdx
+--- GDX File ($gdxIn) F:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2040\ED8\S_SOE_2040_ED8.gdx
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(320) 6 Mb
+--- $echo File F:\2025_Methanol_synthesis\3_GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Eco_cost.txt
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(336) 6 Mb
+--- Starting execution: elapsed 0:00:00.367
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(319) 6 Mb
+--- GDX File (execute_unload) F:\2025_Methanol_synthesis\3_GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\All_data_SOE_2040_ED8.gdx
+--- Total_Cost_breakdown_SOE_gdx_CAP.gms(335) 6 Mb

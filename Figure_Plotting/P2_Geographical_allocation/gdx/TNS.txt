@@ -1,0 +1,35 @@
+Text = "Prov"                rng = U_PV_city!A1
+Text = "City_ix"             rng = U_PV_city!B1
+Text = "City_i"              rng = U_PV_city!C1
+Text = "Value"               rng = U_PV_city!D1
+Par = U_PV_city              rng = U_PV_city!A2       rDim = 3
+
+Text = "Prov"                rng = U_WT_city!A1
+Text = "City_ix"             rng = U_WT_city!B1
+Text = "City_i"              rng = U_WT_city!C1
+Text = "Value"               rng = U_WT_city!D1
+Par = U_WT_city              rng = U_WT_city!A2       rDim = 3
+
+Text = "Prov"               rng = U_PV_exp!A1
+Text = "City"                rng = U_PV_exp!B1
+Text = "Value"               rng = U_PV_exp!C1
+Par = U_PV_exp               rng = U_PV_exp!A2        rDim = 2
+
+Text = "Prov"                rng = U_WT_exp!A1
+Text = "City"                rng = U_WT_exp!B1
+Text = "Value"               rng = U_WT_exp!C1   
+Par = U_WT_exp               rng = U_WT_exp!A2        rDim = 2
+
+Text = "Prov"                rng = U_imp!A1
+Text = "City"                rng = U_imp!B1
+Text = "Value"               rng = U_imp!C1  
+Par = U_imp                  rng = U_imp!A2           rDim = 2
+
+
+Text = "Type"                rng = U_prov!A1
+Text = "Prov_jx"             rng = U_prov!B1
+Text = "Prov"                rng = U_prov!C1
+Text = "Value"               rng = U_prov!D1
+Par = U_prov                 rng = U_prov!A2          rDim = 3
+
+

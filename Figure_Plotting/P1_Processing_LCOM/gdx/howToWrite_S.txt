@@ -1,0 +1,9 @@
+
+Text = "Levelized_cost"      rng = 2050_LCOM!A1
+Text = "Value"               rng = 2050_LCOM!B1 
+
+Text = "Coal_LCOM"         rng = 2050_LCOM!A2
+Par = LCOC                 rng = 2050_LCOM!B2
+
+Text = "State_LCOM"        rng = 2050_LCOM!A3
+Par = LCOM                 rng = 2050_LCOM!B3

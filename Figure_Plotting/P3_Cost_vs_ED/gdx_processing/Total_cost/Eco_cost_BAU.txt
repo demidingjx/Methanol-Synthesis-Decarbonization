@@ -1,0 +1,3 @@
+Text = "Type"                rng = Eco_cost_BAU!A1
+Text = "Value"               rng = Eco_cost_BAU!B1
+Par = Eco_cost_BAU               rng = Eco_cost_BAU!A2      rDim = 1

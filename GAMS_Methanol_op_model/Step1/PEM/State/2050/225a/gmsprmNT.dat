@@ -1,0 +1,10 @@
+Input=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+PageSize=0
+ScrDir=225a
+SysDir=D:\GAMS\47
+ScriptNext=225a\gamsnext.cmd
+LogOption=3
+ErrMsg=1
+ErrorLog=99
+IDE=1
+LstTitleLeftAligned=1

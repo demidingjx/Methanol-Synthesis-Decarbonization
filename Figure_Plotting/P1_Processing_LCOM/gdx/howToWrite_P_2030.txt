@@ -1,0 +1,15 @@
+
+Text = "Prov_LCOM"           rng = 2030_LCOM!A4
+Par = LCOM.l                 rng = 2030_LCOM!B4 
+
+Text = "Prov_RLCCE"           rng = 2030_RLCCE!A3
+Par = RLCCE                  rng = 2030_RLCCE!B3 
+
+Text = "Prov_LCOM_j"          rng = 2030_Prov_LCOM_j!A1     
+Text = "Value"                rng = 2030_Prov_LCOM_j!B1 
+Par = LCOM_prov               rng = 2030_Prov_LCOM_j!A2     rDim = 1
+
+Text = "Prov_RLCCE_j"         rng = 2030_Prov_RLCCE_j!A1     
+Text = "Value"                rng = 2030_Prov_RLCCE_j!B1 
+Par = RLCCE_prov              rng = 2030_Prov_RLCCE_j!A2     rDim = 1
+

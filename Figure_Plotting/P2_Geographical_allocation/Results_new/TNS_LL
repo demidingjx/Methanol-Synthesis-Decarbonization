@@ -1,0 +1,57 @@
+import pandas as pd
+
+# File paths
+tns_file = r"D:\GAMS_optimization\Statewide\Updated_Gams\P3_Geographical_allocation\Results\SOE\2040\ED75\TNS_nom_SOE_2040_ED75.xlsx"
+city_coords_file = r"D:\GAMS_optimization\Statewide\Updated_Gams\P3_Geographical_allocation\pycode\City_coordinates.xlsx"
+output_file = r"D:\GAMS_optimization\Statewide\Updated_Gams\P3_Geographical_allocation\Results\SOE\2040\ED75\TNS_nom_SOE_2040_ED75_with_city_coords.xlsx"
+
+# Read TNS_nom workbook
+tns_xls = pd.ExcelFile(tns_file)
+dfs = {sheet: tns_xls.parse(sheet) for sheet in tns_xls.sheet_names}
+
+# Read city coordinates table
+# Expected columns: Pron, City, Lons2, Lats2
+city_df = pd.read_excel(city_coords_file)
+
+# Prepare mappings for City_ix and City_i
+city_ix_df = city_df.rename(columns={"Pron": "Prov", "City": "City_ix", "Lons2": "Longitude_1", "Lats2": "Latitude_1"})
+city_i_df  = city_df.rename(columns={"Pron": "Prov", "City": "City_i",  "Lons2": "Longitude_2", "Lats2": "Latitude_2"})
+
+# Sheets to process
+sheets_to_update = ["U_PV_city", "U_WT_city"]
+
+for sheet in sheets_to_update:
+    if sheet not in dfs:
+        raise KeyError(f"Sheet '{sheet}' not found in {tns_file}.")
+    df = dfs[sheet]
+
+    # Merge coordinates for City_ix
+    df = pd.merge(df,
+                  city_ix_df[["Prov", "City_ix", "Longitude_1", "Latitude_1"]],
+                  on=["Prov", "City_ix"], how="left")
+    # Merge coordinates for City_i
+    df = pd.merge(df,
+                  city_i_df[["Prov", "City_i", "Longitude_2", "Latitude_2"]],
+                  on=["Prov", "City_i"], how="left")
+
+    # Check for missing coordinates
+    missing_ix = df["Longitude_1"].isnull() | df["Latitude_1"].isnull()
+    if missing_ix.any():
+        missing_pairs = df.loc[missing_ix, ["Prov", "City_ix"]].drop_duplicates()
+        print(f"Warning: Missing coordinates for Prov-City_ix in sheet '{sheet}':")
+        print(missing_pairs)
+
+    missing_i = df["Longitude_2"].isnull() | df["Latitude_2"].isnull()
+    if missing_i.any():
+        missing_pairs = df.loc[missing_i, ["Prov", "City_i"]].drop_duplicates()
+        print(f"Warning: Missing coordinates for Prov-City_i in sheet '{sheet}':")
+        print(missing_pairs)
+
+    dfs[sheet] = df
+
+# Write updated workbook using context manager
+with pd.ExcelWriter(output_file, engine="openpyxl") as writer:
+    for name, df in dfs.items():
+        df.to_excel(writer, sheet_name=name, index=False)
+
+print(f"Successfully saved updated file with city coordinates to: {output_file}")

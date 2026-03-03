@@ -1,0 +1,10 @@
+Input=D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Total_Cost_breakdown_PEM_gdx_CAP.gms
+PageSize=0
+ScrDir=225b
+SysDir=D:\GAMS\47
+ScriptNext=225b\gamsnext.cmd
+LogOption=3
+ErrMsg=1
+ErrorLog=99
+IDE=1
+LstTitleLeftAligned=1

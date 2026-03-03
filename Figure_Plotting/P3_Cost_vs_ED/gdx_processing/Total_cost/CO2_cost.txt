@@ -1,0 +1,3 @@
+Text = "Type"                rng = CO2_contribution!A1
+Text = "Value"               rng = CO2_contribution!B1
+Par = CO2_cost         rng = CO2_contribution!A2      rDim = 1

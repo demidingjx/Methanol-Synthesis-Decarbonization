@@ -1,0 +1,14 @@
+
+Text = "City_LCOM"           rng = 2050_LCOM!A5
+Par = LCOM.l                 rng = 2050_LCOM!B5
+Text = "City_RLCCE"           rng = 2050_RLCCE!A4
+Par = RLCCE                  rng = 2050_RLCCE!B4 
+
+
+Text = "City_LCOM_j"          rng = 2050_City_LCOM_j!A1
+Text = "Value"                rng = 2050_City_LCOM_j!B1 
+Par = LCOM_prov               rng = 2050_City_LCOM_j!A2     rDim = 1
+
+Text = "City_LCOM_j"          rng = 2050_City_RLCCE_j!A1
+Text = "Value"                rng = 2050_City_RLCCE_j!B1 
+Par = RLCCE_prov               rng = 2050_City_RLCCE_j!A2     rDim = 1

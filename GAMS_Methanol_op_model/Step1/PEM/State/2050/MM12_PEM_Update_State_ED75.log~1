@@ -1,0 +1,530 @@
+--- Job MM12_PEM_Update_State_ED75.gms Start 10/10/25 17:26:23 47.6.0 c2de9d6d WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    D:\GAMS\47\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    PageSize 0
+    ScrDir E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\225a\
+    SysDir D:\GAMS\47\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Zuming Liu, Single User License                S250728|0002AO-GEN
+          Shanghai Jiao Tong University, College of Smart Energy    DC16679
+          C:\Users\49252\Documents\GAMS\gamslice.txt
+          zmliu@sjtu.edu.cn                                                
+          The maintenance period of the license will expire on Oct 26, 2025
+Processor information: 1 socket(s), 16 core(s), and 24 thread(s) available
+GAMS 47.6.0   Copyright (C) 1987-2024 GAMS Development. All rights reserved
+--- Starting compilation
+--- MM12_PEM_Update_State_ED75.gms(47) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Provinces.csv  id = j  index = 1  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(48) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Provinces.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Provinces.gdx
+--- MM12_PEM_Update_State_ED75.gms(49) 3 Mb 1 Error
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(52) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Cities.csv  id = ix  index = 1  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(53) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Cities.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Cities.gdx
+--- MM12_PEM_Update_State_ED75.gms(54) 3 Mb 2 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(58) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Cities_w_MeOH.csv  id = i  index = 1  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(59) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Cities_w_MeOH.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Cities_w_MeOH.gdx
+--- MM12_PEM_Update_State_ED75.gms(60) 3 Mb 3 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(64) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Cities_wo_MeOH.csv  id = irx  index = 1  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(65) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Cities_wo_MeOH.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Cities_wo_MeOH.gdx
+--- MM12_PEM_Update_State_ED75.gms(66) 3 Mb 4 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(72) 3 Mb 8 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(77) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Solar_PV_Capacity.csv  id = PV_Caps  index = 1,2  values = 3..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(78) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Solar_PV_Capacity.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Solar_PV_Capacity.gdx
+--- MM12_PEM_Update_State_ED75.gms(79) 3 Mb 9 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(82) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Solar_PV_CF_288.csv        id = PV_CF    index = 1,2  values = 3..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(83) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Solar_PV_CF_288.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Solar_PV_CF_288.gdx
+--- MM12_PEM_Update_State_ED75.gms(84) 3 Mb 10 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(87) 3 Mb 11 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(92) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Onshore_Wind_Capacity.csv  id = OnWind_Caps  index = 1,2  values = 3..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(93) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Onshore_Wind_Capacity.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Onshore_Wind_Capacity.gdx
+--- MM12_PEM_Update_State_ED75.gms(94) 3 Mb 12 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(97) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Onshore_Wind_CF_288.csv        id = OnWind_CF    index = 1,2  values = 3..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 15ms
+--- MM12_PEM_Update_State_ED75.gms(98) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Onshore_Wind_CF_288.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Onshore_Wind_CF_288.gdx
+--- MM12_PEM_Update_State_ED75.gms(99) 3 Mb 13 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(102) 3 Mb 14 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(104) 3 Mb 16 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(108) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\MeOH_Caps.csv  id = MeOH_Cap_yr  index = 1,2  values = 3..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 16ms
+--- MM12_PEM_Update_State_ED75.gms(109) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MeOH_Caps.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MeOH_Caps.gdx
+--- MM12_PEM_Update_State_ED75.gms(110) 3 Mb 17 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(113) 3 Mb 18 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(119) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\SM_Param.csv  id = Coeff  index = 1,2  values = 3..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 15ms
+--- MM12_PEM_Update_State_ED75.gms(120) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\SM_Param.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\SM_Param.gdx
+--- MM12_PEM_Update_State_ED75.gms(121) 3 Mb 19 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(124) 3 Mb 20 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(128) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Electricity_288.csv  id = tou  index = 1  values = 2..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(129) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Electricity_288.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Electricity_288.gdx
+--- MM12_PEM_Update_State_ED75.gms(130) 3 Mb 21 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(135) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Prefecture_Distance.csv  id = cDstn  index = 1,2  values = 3..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(136) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Prefecture_Distance.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Prefecture_Distance.gdx
+--- MM12_PEM_Update_State_ED75.gms(137) 3 Mb 22 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(140) 3 Mb 23 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(144) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\TNS_loss.csv  id = pln_loss  index = 1,2,3  values = 4..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(145) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\TNS_loss.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\TNS_loss.gdx
+--- MM12_PEM_Update_State_ED75.gms(146) 3 Mb 24 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(149) 3 Mb 25 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(155) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\TNS_caps.csv  id = U_prov_nom  index = 1,2,3  values = 4..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(156) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\TNS_caps.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\TNS_caps.gdx
+--- MM12_PEM_Update_State_ED75.gms(157) 3 Mb 26 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(162) 3 Mb 27 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(180) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Tech_Specs_MSR.csv  id = Param  index = 1  values = 2..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(181) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Tech_Specs_MSR.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Tech_Specs_MSR.gdx
+--- MM12_PEM_Update_State_ED75.gms(182) 3 Mb 28 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(185) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Lifetime.csv  id = Param_ltm  index = 1  values = 2..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 16ms
+--- MM12_PEM_Update_State_ED75.gms(186) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Lifetime.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Lifetime.gdx
+--- MM12_PEM_Update_State_ED75.gms(187) 3 Mb 29 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(190) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\CAPEX.csv  id = Tech_CAP  index = 1  values = 2..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 15ms
+--- MM12_PEM_Update_State_ED75.gms(191) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\CAPEX.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\CAPEX.gdx
+--- MM12_PEM_Update_State_ED75.gms(192) 3 Mb 30 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(195) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\FOM.csv  id = Tech_FOM  index = 1  values = 2..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(196) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\FOM.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\FOM.gdx
+--- MM12_PEM_Update_State_ED75.gms(197) 3 Mb 31 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(200) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\VOM.csv  id = Tech_VOM  index = 1  values = 2..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 16ms
+--- MM12_PEM_Update_State_ED75.gms(201) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\VOM.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\VOM.gdx
+--- MM12_PEM_Update_State_ED75.gms(202) 3 Mb 32 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(205) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\CO2c.csv  id = uCO2c  index = 1  values = 2..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 15ms
+--- MM12_PEM_Update_State_ED75.gms(206) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\CO2c.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\CO2c.gdx
+--- MM12_PEM_Update_State_ED75.gms(207) 3 Mb 33 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(210) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\CO2e_BLN.csv  id = uCO2e  index = 1  values = 2..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 16ms
+--- MM12_PEM_Update_State_ED75.gms(211) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\CO2e_BLN.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\CO2e_BLN.gdx
+--- MM12_PEM_Update_State_ED75.gms(212) 3 Mb 34 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(215) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\CO2p.csv  id = uCO2p  index = 1  values = 2..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(216) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\CO2p.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\CO2p.gdx
+--- MM12_PEM_Update_State_ED75.gms(217) 3 Mb 35 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(220) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Coal_price.csv  id = uCoal  index = 1  values = 2..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 15ms
+--- MM12_PEM_Update_State_ED75.gms(221) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Coal_price.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\Coal_price.gdx
+--- MM12_PEM_Update_State_ED75.gms(222) 3 Mb 36 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(225) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\CEF_grid.csv  id = CF_CO2  index = 1  values = 2..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 16ms
+--- MM12_PEM_Update_State_ED75.gms(226) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\CEF_grid.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\CEF_grid.gdx
+--- MM12_PEM_Update_State_ED75.gms(227) 3 Mb 37 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(230) 3 Mb
+--- call csv2gdx F:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\eta_tech.csv  id = Eta_tech  index = 1  values = 2..lastCol  useHeader = y
+*** ErrNr = 1 Msg = No such file or directory
+CSV2GDX time = 0ms
+--- MM12_PEM_Update_State_ED75.gms(231) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\eta_tech.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\eta_tech.gdx
+--- MM12_PEM_Update_State_ED75.gms(232) 3 Mb 38 Errors
+*** Error 492 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol not in GDX
+--- MM12_PEM_Update_State_ED75.gms(235) 3 Mb 46 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(549) 3 Mb 47 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(662) 3 Mb
+--- $echo File E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\gurobi.opt
+--- MM12_PEM_Update_State_ED75.gms(677) 3 Mb 48 Errors
+*** Error 257 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Solve statement not checked because of previous errors
+--- MM12_PEM_Update_State_ED75.gms(684) 3 Mb 50 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(718) 3 Mb 51 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(773) 3 Mb 52 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(777) 3 Mb 53 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(786) 3 Mb 54 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(798) 3 Mb 55 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(799) 3 Mb 56 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(800) 3 Mb 57 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(801) 3 Mb 58 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(804) 3 Mb 59 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(805) 3 Mb 60 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(821) 3 Mb 64 Errors
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+*** Error 141 in E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+    Symbol declared but no values have been assigned. Check for missing
+       data definition, assignment, data loading or implicit assignment
+       via a solve statement. Suppress with $onImplicitAssign.
+       A wild shot: You may have spurious commas in the explanatory
+       text of a declaration. Check symbol reference list.
+--- MM12_PEM_Update_State_ED75.gms(894) 3 Mb 64 Errors
+*** Status: Compilation error(s)
+--- Job MM12_PEM_Update_State_ED75.gms Stop 10/10/25 17:26:23 elapsed 0:00:00.555

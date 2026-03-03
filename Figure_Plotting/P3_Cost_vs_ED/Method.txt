@@ -1,0 +1,38 @@
+1. First read data
+
+"~\P2_Cost_vs_ED\gdx_processing\Total_cost\Total_Cost_breakdown_PEM_gdx_CAP.gsp"
+"~\P2_Cost_vs_ED\gdx_processing\Total_cost\P_cost_breakdown_PEM.gsp"
+"~\P2_Cost_vs_ED\gdx_processing\Total_cost\C_cost_breakdown_PEM.gsp"
+
+Each S dataset needs to be processed.
+C and P are only processed for 2040 and 2050 optimal cases.
+
+The following scripts can be used for batch runs:
+
+"~\P2_Cost_vs_ED\gdx_processing\PEM_Run.py"
+"~\P2_Cost_vs_ED\gdx_processing\SOE_Run.py"
+
+2. Run pycode – Manuscript
+
+"~\P2_Cost_vs_ED\pycode\Merge_xlsx_soe.py"
+"~\P2_Cost_vs_ED\pycode\Merge_xlsx_pem.py"
+
+* Remember to modify EI range
+  "~\P2_Cost_vs_ED\pycode\Merge_city_prov_pem.py"
+
+"~\P2_Cost_vs_ED\pycode\Wash_BAU.py"
+
+(Data updated in:
+"~\P2_Cost_vs_ED\pycode\SOE\bar_allyears")
+
+2b. Run pycode – Supplementary
+
+* Remember to modify EI range
+  "~\P2_Cost_vs_ED\pycode\Merge_city_prov_pem.py"  – extract information for each table
+
+Results saved in:
+"~\P2_Cost_vs_ED\pycode\SOE\bar_allyears\Supplementary_CityProv.xlsx"
+
+3. Plotting
+
+"~\P2_Cost_vs_ED\pycode\Manuscript_Fig.py"

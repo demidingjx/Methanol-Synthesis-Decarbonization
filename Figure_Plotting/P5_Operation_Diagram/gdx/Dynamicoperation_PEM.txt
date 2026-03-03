@@ -1,0 +1,52 @@
+Text = "Hour_PV"                rng = Hour_PV!A1
+Text = "Value"                  rng = Hour_PV!B1
+Par = Tol_P_PV                  rng = Hour_PV!A2      rDim = 1
+
+Text = "Hour_WT"                rng = Hour_WT!A1
+Text = "Value"                  rng = Hour_WT!B1
+Par = Tol_P_WT                  rng = Hour_WT!A2      rDim = 1
+
+Text = "Hour_Grid"              rng = Hour_Grid!A1
+Text = "Value"                  rng = Hour_Grid!B1
+Par = Tol_P_grid                rng = Hour_Grid!A2      rDim = 1
+
+Text = "Hour_EL"                rng = Hour_EL!A1
+Text = "Value"                  rng = Hour_EL!B1
+Par = Tol_P_EL                  rng = Hour_EL!A2      rDim = 1
+
+Text = "Hour_ChgP_LiB"                rng = Hour_ChgP_LiB!A1
+Text = "Value"                        rng = Hour_ChgP_LiB!B1
+Par = Tol_ChgP_LiB                    rng = Hour_ChgP_LiB!A2      rDim = 1
+
+Text = "Hour_DisP_LiB"                rng = Hour_DisP_LiB!A1
+Text = "Value"                        rng = Hour_DisP_LiB!B1
+Par = Tol_DisP_LiB                    rng = Hour_DisP_LiB!A2      rDim = 1
+
+Text = "Hour_ChgP_HST"                rng = Hour_ChgP_HST!A1
+Text = "Value"                         rng = Hour_ChgP_HST!B1
+Par = Tol_ChgP_tank                    rng = Hour_ChgP_HST!A2      rDim = 1
+
+Text = "Hour_DisP_HST"                rng = Hour_DisP_HST!A1
+Text = "Value"                         rng = Hour_DisP_HST!B1
+Par = Tol_DisP_tank                    rng = Hour_DisP_HST!A2      rDim = 1
+
+Text = "Hour_EN_LiB"                   rng = Hour_EN_LiB!A1
+Text = "Value"                         rng = Hour_EN_LiB!B1
+Par = Tol_En_ES_LiB                    rng = Hour_EN_LiB!A2      rDim = 1
+
+Text = "Hour_EN_HST"               rng = Hour_EN_HST!A1
+Text = "Value"                      rng = Hour_EN_HST!B1
+Par = Tol_En_ES_tank                rng = Hour_EN_HST!A2      rDim = 1
+
+Text = "MeOH_coal_hr"                       rng = MeOH_coal_hr!A1
+Text = "Value"                          rng = MeOH_coal_hr!B1
+Par = Tol_MeOH_coal_hr                         rng = MeOH_coal_hr!A2      rDim = 1
+
+Text = "Hour_MeOH"                        rng = Hour_MeOH!A1
+Text = "Value"                            rng = Hour_MeOH!B1
+Par = Tol_M_MSR                    rng = Hour_MeOH!A2      rDim = 1
+
+Text = "LCOM_Hr"                        rng = LCOM_Hr!A1
+Text = "Value"                          rng = LCOM_Hr!B1
+Par = LCOM_t                            rng = LCOM_Hr!A2      rDim = 1
+

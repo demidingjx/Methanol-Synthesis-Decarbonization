@@ -1,0 +1,97 @@
+--- Job LCOM_Statewide_gdx_to_csv.gms Start 12/12/25 11:17:28 47.6.0 c2de9d6d WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    D:\GAMS\47\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\LCOM_Statewide_gdx_to_csv.gms
+    PageSize 0
+    ScrDir E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\225i\
+    SysDir D:\GAMS\47\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Zuming Liu, Single User License                S250728|0002AO-GEN
+          Shanghai Jiao Tong University, College of Smart Energy    DC16679
+          C:\Users\49252\Documents\GAMS\gamslice.txt
+          zmliu@sjtu.edu.cn                                                
+          The maintenance period of the license expired on Oct 26, 2025
+          Please contact GAMS or your distributor for further information
+Processor information: 1 socket(s), 16 core(s), and 24 thread(s) available
+GAMS 47.6.0   Copyright (C) 1987-2024 GAMS Development. All rights reserved
+--- Starting compilation
+--- LCOM_Statewide_gdx_to_csv.gms(19) 2 Mb
+--- $echo File E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\howToWrite_S_2030.txt
+--- LCOM_Statewide_gdx_to_csv.gms(41) 2 Mb
+--- $echo File E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\howToWrite_P_2030.txt
+--- LCOM_Statewide_gdx_to_csv.gms(62) 2 Mb
+--- $echo File E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\howToWrite_C_2030.txt
+--- LCOM_Statewide_gdx_to_csv.gms(83) 2 Mb
+--- $echo File E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\howToWrite_S_2040.txt
+--- LCOM_Statewide_gdx_to_csv.gms(107) 2 Mb
+--- $echo File E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\howToWrite_P_2040.txt
+--- LCOM_Statewide_gdx_to_csv.gms(129) 2 Mb
+--- $echo File E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\howToWrite_C_2040.txt
+--- LCOM_Statewide_gdx_to_csv.gms(151) 2 Mb
+--- $echo File E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\howToWrite_S_2050.txt
+--- LCOM_Statewide_gdx_to_csv.gms(174) 2 Mb
+--- $echo File E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\howToWrite_P_2050.txt
+--- LCOM_Statewide_gdx_to_csv.gms(195) 2 Mb
+--- $echo File E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\howToWrite_C_2050.txt
+--- LCOM_Statewide_gdx_to_csv.gms(214) 2 Mb
+--- Starting execution: elapsed 0:00:00.080
+--- LCOM_Statewide_gdx_to_csv.gms(39) 3 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+**** Input file not found = E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2030\ED21\S_SOE_2030_ED21.gdx
+Total time = 1157 Ms
+--- LCOM_Statewide_gdx_to_csv.gms(60) 3 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+**** Input file not found = E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2030\ED21\P_SOE_2030_ED21.gdx
+Total time = 875 Ms
+--- LCOM_Statewide_gdx_to_csv.gms(80) 3 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+**** Input file not found = E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2030\ED21\C_SOE_2030_ED21.gdx
+Total time = 781 Ms
+--- LCOM_Statewide_gdx_to_csv.gms(104) 3 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+Input file : E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2040\ED21\S_SOE_2040_ED21.gdx
+Output file: E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\Results_M12_0812\SOE\ED21\LCOM_SOE_ED21.xlsx
+Adding new sheet: 2040_RLCCE
+Total time = 922 Ms
+--- LCOM_Statewide_gdx_to_csv.gms(127) 3 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+Input file : E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2040\ED21\P_SOE_2040_ED21.gdx
+Output file: E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\Results_M12_0812\SOE\ED21\LCOM_SOE_ED21.xlsx
+Adding new sheet: 2040_Prov_LCOM_j
+Adding new sheet: 2040_Prov_RLCCE_j
+Total time = 4234 Ms
+--- LCOM_Statewide_gdx_to_csv.gms(148) 3 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+Input file : E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2040\ED21\C_SOE_2040_ED21.gdx
+Output file: E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\Results_M12_0812\SOE\ED21\LCOM_SOE_ED21.xlsx
+Adding new sheet: 2040_City_LCOM_j
+Adding new sheet: 2040_City_RLCCE_j
+Total time = 1641 Ms
+--- LCOM_Statewide_gdx_to_csv.gms(171) 3 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+**** Input file not found = E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2050\ED21\S_SOE_2050_ED21.gdx
+Total time = 875 Ms
+--- LCOM_Statewide_gdx_to_csv.gms(193) 3 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+**** Input file not found = E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2050\ED21\P_SOE_2050_ED21.gdx
+Total time = 844 Ms
+--- LCOM_Statewide_gdx_to_csv.gms(213) 3 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+**** Input file not found = E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2050\ED21\C_SOE_2050_ED21.gdx
+Total time = 891 Ms
+*** Status: Normal completion
+--- Job LCOM_Statewide_gdx_to_csv.gms Stop 12/12/25 11:17:42 elapsed 0:00:13.545

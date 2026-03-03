@@ -1,0 +1,5 @@
+Text = "Prov"                 rng = City_LCOM_j!A1
+Text = "City"                rng = City_LCOM_j!B1
+Text = "Value"                rng = City_LCOM_j!C1 
+
+Par = LCOM_city               rng = City_LCOM_j!A2     rDim = 2

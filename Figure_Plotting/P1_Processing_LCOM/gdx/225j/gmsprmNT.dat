@@ -1,0 +1,4 @@
+Input=E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\LCOM_city_indi_ED25.gms
+ScrDir=225j
+SysDir=D:\GAMS\48\48
+ScriptNext=225j\gamsnext.cmd

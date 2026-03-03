@@ -1,0 +1,10 @@
+Input=F:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\LCOM_Statewide_gdx_to_csv.gms
+PageSize=0
+ScrDir=225c
+SysDir=D:\GAMS\48
+ScriptNext=225c\gamsnext.cmd
+LogOption=3
+ErrMsg=1
+ErrorLog=99
+IDE=1
+LstTitleLeftAligned=1

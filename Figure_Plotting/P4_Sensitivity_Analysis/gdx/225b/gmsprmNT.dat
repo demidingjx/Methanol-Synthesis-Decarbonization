@@ -1,0 +1,10 @@
+Input=E:\2025_Methanol_synthesis\3_GAMS\P4_Sensitivity_Analysis\gdx\Installation_ratio.gms
+PageSize=0
+ScrDir=225b
+SysDir=D:\GAMS\47
+ScriptNext=225b\gamsnext.cmd
+LogOption=3
+ErrMsg=1
+ErrorLog=99
+IDE=1
+LstTitleLeftAligned=1

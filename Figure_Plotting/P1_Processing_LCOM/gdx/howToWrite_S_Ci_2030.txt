@@ -1,0 +1,16 @@
+
+Text = "Levelized_cost"      rng = 2030_LCOM!A1
+Text = "Value"               rng = 2030_LCOM!B1 
+
+Text = "Coal_LCOM"         rng = 2030_LCOM!A2
+Par = LCOC                 rng = 2030_LCOM!B2
+
+Text = "State_LCOM"        rng = 2030_LCOM!A3
+Par = LCOM                 rng = 2030_LCOM!B3
+
+Text = "Levelized_CO2_emission"       rng = 2030_RLCCE!A1
+Text = "Value"                        rng = 2030_RLCCE!B1 
+
+Text = "State_CO2e"                   rng = 2030_RLCCE!A2
+Par = RLCCE                           rng = 2030_RLCCE!B2
+

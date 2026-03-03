@@ -1,0 +1,57 @@
+--- Job Installation_ratio_BLN.gms Start 12/16/25 19:41:39 47.6.0 c2de9d6d WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    D:\GAMS\47\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input E:\2025_Methanol_synthesis\3_GAMS\P4_Sensitivity_Analysis\gdx\Installation_ratio_BLN.gms
+    PageSize 0
+    ScrDir E:\2025_Methanol_synthesis\3_GAMS\P4_Sensitivity_Analysis\gdx\225b\
+    SysDir D:\GAMS\47\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Zuming Liu, Single User License                S250728|0002AO-GEN
+          Shanghai Jiao Tong University, College of Smart Energy    DC16679
+          C:\Users\49252\Documents\GAMS\gamslice.txt
+          zmliu@sjtu.edu.cn                                                
+          The maintenance period of the license expired on Oct 26, 2025
+          Please contact GAMS or your distributor for further information
+Processor information: 1 socket(s), 16 core(s), and 24 thread(s) available
+GAMS 47.6.0   Copyright (C) 1987-2024 GAMS Development. All rights reserved
+--- Starting compilation
+--- Installation_ratio_BLN.gms(22) 2 Mb
+--- call csv2gdx E:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Provinces.csv  id = j  index = 1  useHeader = y
+No errors, CSV2GDX time = 94ms
+--- Installation_ratio_BLN.gms(23) 2 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\P4_Sensitivity_Analysis\gdx\Provinces.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\P4_Sensitivity_Analysis\gdx\Provinces.gdx
+--- Installation_ratio_BLN.gms(27) 3 Mb
+--- call csv2gdx E:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Cities.csv  id = ix  index = 1  useHeader = y
+No errors, CSV2GDX time = 31ms
+--- Installation_ratio_BLN.gms(28) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\P4_Sensitivity_Analysis\gdx\Cities.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\P4_Sensitivity_Analysis\gdx\Cities.gdx
+--- Installation_ratio_BLN.gms(33) 3 Mb
+--- call csv2gdx E:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Cities_w_MeOH.csv  id = i  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Installation_ratio_BLN.gms(34) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\P4_Sensitivity_Analysis\gdx\Cities_w_MeOH.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\P4_Sensitivity_Analysis\gdx\Cities_w_MeOH.gdx
+--- Installation_ratio_BLN.gms(64) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\PEM\Sensitivity\S_PEM_BLN.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\PEM\Sensitivity\S_PEM_BLN.gdx
+--- Installation_ratio_BLN.gms(121) 5 Mb
+--- $echo File E:\2025_Methanol_synthesis\3_GAMS\P4_Sensitivity_Analysis\gdx\Prov_nom.txt
+--- Installation_ratio_BLN.gms(139) 5 Mb
+--- Starting execution: elapsed 0:00:00.675
+--- Installation_ratio_BLN.gms(120) 6 Mb
+--- GDX File (execute_unload) E:\2025_Methanol_synthesis\3_GAMS\P4_Sensitivity_Analysis\gdx\Data_PEM_BLN.gdx
+--- Installation_ratio_BLN.gms(139) 6 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+Input file : E:\2025_Methanol_synthesis\3_GAMS\P4_Sensitivity_Analysis\gdx\Data_PEM_BLN.gdx
+Output file: E:\2025_Methanol_synthesis\3_GAMS\P4_Sensitivity_Analysis\excel\PEM\Data_PEM_BLN.xlsx
+Total time = 3250 Ms
+*** Status: Normal completion
+--- Job Installation_ratio_BLN.gms Stop 12/16/25 19:41:43 elapsed 0:00:04.174

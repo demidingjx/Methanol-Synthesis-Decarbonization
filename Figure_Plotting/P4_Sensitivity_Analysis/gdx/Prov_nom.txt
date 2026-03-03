@@ -1,0 +1,14 @@
+Par = U_prov_nom_GW          rng = GW_tech!A1       rDim = 1
+Par = U_GW_nom                  rng = Capacity!A1
+Par = Energy                        rng = Energy_TWh!A1
+Text = "LCOM"                      rng = Ratio!A1
+Par = LCOM                          rng = Ratio!A2
+
+Text = "LCOC"                      rng = Ratio!B1
+Par = LCOC                          rng = Ratio!B2
+
+Text = "Ratio"                      rng = Ratio!C1
+Par = Ratio                          rng = Ratio!C2
+
+Text = 'LCCR'                      rng = Ratio!D1
+Par = Decar_cost                 rng = Ratio!D2

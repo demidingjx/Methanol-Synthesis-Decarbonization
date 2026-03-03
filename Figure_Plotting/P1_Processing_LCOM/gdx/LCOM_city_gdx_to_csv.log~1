@@ -1,0 +1,90 @@
+
+--- Job Individual_City_LCOM_PEM.gms Start 12/11/25 13:35:44 47.6.0 c2de9d6d WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    D:\GAMS\47\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\Individual_City_LCOM_PEM.gms
+    PageSize 0
+    ScrDir E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\225i\
+    SysDir D:\GAMS\47\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Zuming Liu, Single User License                S250728|0002AO-GEN
+          Shanghai Jiao Tong University, College of Smart Energy    DC16679
+          C:\Users\49252\Documents\GAMS\gamslice.txt
+          zmliu@sjtu.edu.cn                                                
+          The maintenance period of the license expired on Oct 26, 2025
+          Please contact GAMS or your distributor for further information
+Processor information: 1 socket(s), 16 core(s), and 24 thread(s) available
+GAMS 47.6.0   Copyright (C) 1987-2024 GAMS Development. All rights reserved
+--- Starting compilation
+--- Individual_City_LCOM_PEM.gms(41) 3 Mb
+--- call csv2gdx E:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Provinces.csv  id = j  index = 1  useHeader = y
+No errors, CSV2GDX time = 62ms
+--- Individual_City_LCOM_PEM.gms(42) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\Provinces.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\Provinces.gdx
+--- Individual_City_LCOM_PEM.gms(46) 3 Mb
+--- call csv2gdx E:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Cities.csv  id = ix  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Individual_City_LCOM_PEM.gms(47) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\Cities.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\Cities.gdx
+--- Individual_City_LCOM_PEM.gms(52) 3 Mb
+--- call csv2gdx E:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Cities_w_MeOH.csv  id = i  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Individual_City_LCOM_PEM.gms(53) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\Cities_w_MeOH.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\Cities_w_MeOH.gdx
+--- Individual_City_LCOM_PEM.gms(58) 3 Mb
+--- call csv2gdx E:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Cities_wo_MeOH.csv  id = irx  index = 1  useHeader = y
+No errors, CSV2GDX time = 15ms
+--- Individual_City_LCOM_PEM.gms(59) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\Cities_wo_MeOH.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\Cities_wo_MeOH.gdx
+--- Individual_City_LCOM_PEM.gms(64) 3 Mb
+--- call csv2gdx E:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Electricity_288.csv  id = tou  index = 1  values = 2..lastCol  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Individual_City_LCOM_PEM.gms(65) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\Electricity_288.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\Electricity_288.gdx
+--- Individual_City_LCOM_PEM.gms(75) 3 Mb
+--- call csv2gdx E:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\MeOH_Caps.csv  id = MeOH_Cap_yr  index = 1,2  values = 3..lastCol  useHeader = y
+No errors, CSV2GDX time = 15ms
+--- Individual_City_LCOM_PEM.gms(76) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\MeOH_Caps.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\MeOH_Caps.gdx
+--- Individual_City_LCOM_PEM.gms(111) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\PEM\2040\ED47\C_PEM_2040_ED47.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\PEM\2040\ED47\C_PEM_2040_ED47.gdx
+--- Individual_City_LCOM_PEM.gms(158) 3 Mb
+--- $echo File E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\howToWrite_C_2030.txt
+--- Individual_City_LCOM_PEM.gms(176) 3 Mb
+--- $echo File E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\LCOM_city_2030.txt
+--- Individual_City_LCOM_PEM.gms(189) 3 Mb
+--- Starting execution: elapsed 0:00:00.233
+--- Individual_City_LCOM_PEM.gms(149) 4 Mb
+*** Error at line 149: division by zero (0)
+--- Individual_City_LCOM_PEM.gms(172) 5 Mb 1 Error
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+Input file : E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\PEM\2040\ED47\C_PEM_2040_ED47.gdx
+Output file: E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\Results_M12_0812\PEM\ED47\LCOM_city_2040_PEM_ED47.xlsx
+Adding new sheet: RLCCE
+Adding new sheet: City_RLCCE_j
+Total time = 1266 Ms
+--- Individual_City_LCOM_PEM.gms(175) 5 Mb
+--- GDX File (execute_unload) E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\LCOM_city_PEM_%YR%.gdx
+--- Individual_City_LCOM_PEM.gms(185) 5 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+Input file : E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\gdx\LCOM_city_PEM_%YR%.gdx
+Output file: E:\2025_Methanol_synthesis\3_GAMS\P1_Processing_LCOM\Results_M12_0812\PEM\ED47\LCOM_city_2040_PEM_ED47.xlsx
+Adding new sheet: City_LCOM_j
+Total time = 3031 Ms
+--- Individual_City_LCOM_PEM.gms(185) 5 Mb 1 Error
+*** Status: Execution error(s)
+--- Job Individual_City_LCOM_PEM.gms Stop 12/11/25 13:35:49 elapsed 0:00:04.721

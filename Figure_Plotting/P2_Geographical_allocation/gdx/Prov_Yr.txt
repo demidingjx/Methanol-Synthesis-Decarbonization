@@ -1,0 +1,11 @@
+Text = "Prov"                rng = Total_size!A1
+Text = "Total size"          rng = Total_size!B1
+Par = Size_Yr                rng = Total_size!A2    rDim = 1
+Par = Percent_Yr             rng = Portion!A1       rDim = 1
+Par = U_yr_prov_TWh          rng = TWh_tech!A1       rDim = 1
+
+Text = "Prov"                rng = ED_prov!A1
+Text = "ED_prov"             rng = ED_prov!B1
+Par = DOI_prov               rng = ED_prov!A2       rDim = 1
+
+

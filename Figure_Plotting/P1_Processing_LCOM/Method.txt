@@ -1,0 +1,45 @@
+1. Process all ED cases first
+
+"~\P1_Processing_LCOM\gdx\LCOM_Statewide_gdx_to_csv.gms"
+
+Run ED = 25, 50, 75, 100 and two optimal cases
+
+Output folder:
+"~\P1_Processing_LCOM\Results_M12_0812"
+
+Batch run:
+~\P1_Processing_LCOM\gdx\Run.py
+
+Replace file:
+"~\P1_Processing_LCOM\Results_M12_0812\Sub_op_into_origin.py"
+
+2. Run Python script
+
+"~\P1_Processing_LCOM\Processing\Merge.py"
+
+PPT needs to be updated afterwards
+
+3. Generate data tables
+
+"~\P1_Processing_LCOM\Processing\Filter_city_or_prov.py"
+
+Output files:
+"~\P1_Processing_LCOM\Processing\LCOM_SOE_CitytoState.xlsx"
+"~\P1_Processing_LCOM\Processing\LCOM_PEM_CitytoState.xlsx"
+
+===============================
+
+City aggregation
+
+1. Open
+   ~\P1_Processing_LCOM\gdx\LCOM_city_gdx_to_csv
+
+2. Open
+   ~\P1_Processing_LCOM\gdx\Run_series_GDX.py
+
+3. Python can run one ED case per year in each loop:
+
+
+4. Perform city aggregation:
+
+City_aggregate

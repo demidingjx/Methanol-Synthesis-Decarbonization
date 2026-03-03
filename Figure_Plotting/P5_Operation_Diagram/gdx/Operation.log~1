@@ -1,0 +1,49 @@
+
+--- Job Operation.gms Start 12/10/25 18:09:29 47.6.0 c2de9d6d WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    D:\GAMS\47\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input E:\2025_Methanol_synthesis\3_GAMS\P5_Operation_Diagram\gdx\Operation.gms
+    PageSize 0
+    ScrDir E:\2025_Methanol_synthesis\3_GAMS\P5_Operation_Diagram\gdx\225a\
+    SysDir D:\GAMS\47\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Zuming Liu, Single User License                S250728|0002AO-GEN
+          Shanghai Jiao Tong University, College of Smart Energy    DC16679
+          C:\Users\49252\Documents\GAMS\gamslice.txt
+          zmliu@sjtu.edu.cn                                                
+          The maintenance period of the license expired on Oct 26, 2025
+          Please contact GAMS or your distributor for further information
+Processor information: 1 socket(s), 16 core(s), and 24 thread(s) available
+GAMS 47.6.0   Copyright (C) 1987-2024 GAMS Development. All rights reserved
+--- Starting compilation
+--- Operation.gms(26) 2 Mb
+--- call csv2gdx E:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Provinces.csv  id = j  index = 1  useHeader = y
+No errors, CSV2GDX time = 78ms
+--- Operation.gms(27) 2 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\P5_Operation_Diagram\gdx\Provinces.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\P5_Operation_Diagram\gdx\Provinces.gdx
+--- Operation.gms(31) 3 Mb
+--- call csv2gdx E:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Cities.csv  id = ix  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Operation.gms(32) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\P5_Operation_Diagram\gdx\Cities.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\P5_Operation_Diagram\gdx\Cities.gdx
+--- Operation.gms(37) 3 Mb
+--- call csv2gdx E:\2025_Methanol_synthesis\3_GAMS\csv_Single_Prov\Cities_w_MeOH.csv  id = i  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Operation.gms(38) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\P5_Operation_Diagram\gdx\Cities_w_MeOH.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\P5_Operation_Diagram\gdx\Cities_w_MeOH.gdx
+--- Operation.gms(66) 3 Mb
+--- GDXin=E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2050\ED57\S_SOE_2050_ED57.gdx
+--- GDX File ($gdxIn) E:\2025_Methanol_synthesis\3_GAMS\GDX7_M12_Fix\SOE\2050\ED57\S_SOE_2050_ED57.gdx
+--- Operation.gms(94) 6 Mb
+--- Starting execution: elapsed 0:00:00.143
+--- Operation.gms(83) 8 Mb
+*** Status: Normal completion
+--- Job Operation.gms Stop 12/10/25 18:09:30 elapsed 0:00:00.217

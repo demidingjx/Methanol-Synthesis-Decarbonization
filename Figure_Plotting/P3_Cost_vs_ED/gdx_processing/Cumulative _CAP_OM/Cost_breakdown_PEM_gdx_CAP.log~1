@@ -1,0 +1,77 @@
+
+--- Job Cost_breakdown_PEM_gdx_CAP.gms Start 07/01/25 13:03:20 47.6.0 c2de9d6d WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    D:\GAMS\47\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input "D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\Cost_breakdown_PEM_gdx_CAP.gms"
+    PageSize 0
+    ScrDir "D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\225b\"
+    SysDir D:\GAMS\47\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Eval License                                   S250602|0002AO-GEN
+          Shanghai Jiao Tong University, College of Smart Energy    DCE4318
+          C:\Users\49252\Documents\GAMS\gamslice.txt
+          License Admin: Zuming Liu, zmliu@sjtu.edu.cn                     
+          Evaluation license: Not for commercial or production use
+          The evaluation period of the license will expire on Jul 02, 2025
+Processor information: 1 socket(s), 16 core(s), and 24 thread(s) available
+GAMS 47.6.0   Copyright (C) 1987-2024 GAMS Development. All rights reserved
+--- Starting compilation
+--- Cost_breakdown_PEM_gdx_CAP.gms(23) 2 Mb
+--- call csv2gdx D:\GAMS_optimization\Statewide\Updated_Gams\csv_Single_Prov\Provinces.csv  id = j  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Cost_breakdown_PEM_gdx_CAP.gms(24) 2 Mb
+--- GDXin=D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\Provinces.gdx
+--- GDX File ($gdxIn) D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\Provinces.gdx
+--- Cost_breakdown_PEM_gdx_CAP.gms(28) 3 Mb
+--- call csv2gdx D:\GAMS_optimization\Statewide\Updated_Gams\csv_Single_Prov\Cities.csv  id = ix  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Cost_breakdown_PEM_gdx_CAP.gms(29) 3 Mb
+--- GDXin=D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\Cities.gdx
+--- GDX File ($gdxIn) D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\Cities.gdx
+--- Cost_breakdown_PEM_gdx_CAP.gms(34) 3 Mb
+--- call csv2gdx D:\GAMS_optimization\Statewide\Updated_Gams\csv_Single_Prov\Cities_w_MeOH.csv  id = i  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Cost_breakdown_PEM_gdx_CAP.gms(35) 3 Mb
+--- GDXin=D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\Cities_w_MeOH.gdx
+--- GDX File ($gdxIn) D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\Cities_w_MeOH.gdx
+--- Cost_breakdown_PEM_gdx_CAP.gms(71) 3 Mb
+--- GDXin=D:\GAMS_optimization\Statewide\Updated_Gams\GDX1_M12\PEM\2040\ED50\S_PEM_2040_ED50.gdx
+--- GDX File ($gdxIn) D:\GAMS_optimization\Statewide\Updated_Gams\GDX1_M12\PEM\2040\ED50\S_PEM_2040_ED50.gdx
+--- Cost_breakdown_PEM_gdx_CAP.gms(221) 3 Mb
+--- $echo File D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\Eco_cost.txt
+--- Cost_breakdown_PEM_gdx_CAP.gms(242) 3 Mb
+--- call csv2gdx D:\GAMS_optimization\Statewide\Updated_Gams\csv_Single_Prov\CEF_grid.csv  id = CF_CO2  index = 1  values = 2..lastCol  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Cost_breakdown_PEM_gdx_CAP.gms(243) 3 Mb
+--- GDXin=D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\CEF_grid.gdx
+--- GDX File ($gdxIn) D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\CEF_grid.gdx
+--- Cost_breakdown_PEM_gdx_CAP.gms(247) 3 Mb
+--- GDXin=D:\GAMS_optimization\Statewide\Updated_Gams\GDX1_M12\PEM\2040\ED50\S_PEM_2040_ED50.gdx
+--- GDX File ($gdxIn) D:\GAMS_optimization\Statewide\Updated_Gams\GDX1_M12\PEM\2040\ED50\S_PEM_2040_ED50.gdx
+--- Cost_breakdown_PEM_gdx_CAP.gms(281) 11 Mb
+--- $echo File D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\CO2_cost.txt
+--- Cost_breakdown_PEM_gdx_CAP.gms(289) 11 Mb
+--- Starting execution: elapsed 0:00:00.095
+--- Cost_breakdown_PEM_gdx_CAP.gms(220) 11 Mb
+--- GDX File (execute_unload) D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\All_data_PEM_2040_ED50.gdx
+--- Cost_breakdown_PEM_gdx_CAP.gms(228) 11 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+Input file : D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\All_data_PEM_2040_ED50.gdx
+Output file: D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\Results\PEM\2040\CB_CAP_PEM_2040_ED50.xlsx
+Total time = 3766 Ms
+--- Cost_breakdown_PEM_gdx_CAP.gms(280) 11 Mb
+--- GDX File (execute_unload) D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\All_data_PEM_2040_ED50.gdx
+--- Cost_breakdown_PEM_gdx_CAP.gms(288) 11 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+Input file : D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Cumulative _CAP_OM\All_data_PEM_2040_ED50.gdx
+Output file: D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\Results\PEM\2040\CB_CAP_PEM_2040_ED50.xlsx
+Total time = 1125 Ms
+*** Status: Normal completion
+--- Job Cost_breakdown_PEM_gdx_CAP.gms Stop 07/01/25 13:03:25 elapsed 0:00:05.159

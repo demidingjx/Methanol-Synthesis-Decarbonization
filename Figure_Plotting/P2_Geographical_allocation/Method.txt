@@ -1,0 +1,37 @@
+1. GDX data processing
+
+Specify the dataset to process, e.g., 2050 ED50 PEM
+
+"~\P3_Geographical_allocation\gdx\Capacity_distribution.gms"
+
+Outputs are saved in:
+"~\P3_Geographical_allocation\Results_new"
+
+ALSO CAN BE COLLECTIVELY PROCESSED IN PYTHON
+
+2. Data preprocessing
+
+2.1 "~\P3_Geographical_allocation\Results_new\Wash_sheet_name.py"
+2.2 "~\P3_Geographical_allocation\Results_new\Add_LL.py"
+2.3 "~\P3_Geographical_allocation\Results_new\TNS_Prov_LL_nom.py"
+2.4 "~\P3_Geographical_allocation\Results_new\TNS_prov_LL_yr.py"
+2.5 "~\P3_Geographical_allocation\Results_new\Matrix.py"
+
+3. Plotting
+
+"~\P3_Geographical_allocation\pycode\Draw\Map_3_1_centre_PEM.py"
+"~\P3_Geographical_allocation\pycode\Draw\Map_3_1_centre_SOE.py"
+
+4. Chord diagrams
+
+"~\P3_Geographical_allocation\R"
+
+Six cases in total; remember to adjust the corresponding parameters.
+
+5. Region-related results in the Results folder
+
+"~\P3_Geographical_allocation\Results_new\Results_region.py"
+
+Inter-provincial transmission line map
+
+"~\P3_Geographical_allocation\pycode\Draw\Map_4_ProvTNS_line.py"

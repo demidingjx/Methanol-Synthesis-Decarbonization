@@ -1,0 +1,7 @@
+
+Text = "Prov_LCOM"           rng = 2050_LCOM!A4
+Par = LCOM.l                 rng = 2050_LCOM!B4 
+
+Text = "Prov_LCOM_j"          rng = 2050_Prov_LCOM_j!A1     
+Text = "Value"                rng = 2050_Prov_LCOM_j!B1 
+Par = LCOM_prov               rng = 2050_Prov_LCOM_j!A2     rDim = 1

@@ -1,0 +1,16 @@
+import geopandas as gpd
+
+shp_path = r"D:/GAMS_optimization/Statewide/Updated_Gams/P3_Geographical_allocation/pycode/CN_Map/CN_Province.shp"
+
+# 1. 用 encoding 参数重读 shapefile
+df = gpd.read_file(shp_path, encoding='GBK')
+
+# 2. 看字段名
+print("字段名：", df.columns.tolist(), "\n")
+
+# 3. 找到最像“省份名称”的列，打印它几行看看内容
+#    比如假设打印第二个 object 字段
+for col in df.columns:
+    if df[col].dtype == object and col != 'geometry':
+        print(f">>> 列 {col} 前 5 行：")
+        print(df[col].head(), "\n")

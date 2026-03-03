@@ -1,0 +1,10 @@
+
+Text = "City_LCOM"           rng = LCOM!A5
+Par = LCOM.l                 rng = LCOM!B5 
+Text = "City_RLCCE"           rng = RLCCE!A4
+Par = RLCCE.l                rng = RLCCE!B4 
+
+Text = "City_LCOM_j"          rng = City_RLCCE_j!A1
+Text = "Value"                rng = City_RLCCE_j!B1 
+Par = RLCCE_prov               rng = City_RLCCE_j!A2     rDim = 1
+

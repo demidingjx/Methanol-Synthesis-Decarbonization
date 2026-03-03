@@ -1,0 +1,5 @@
+
+Text = "TYPE"                rng = Capex_Prov!A1
+Text = "CAPEX"               rng = Capex_Prov!B1 
+Var = CAPEX.l                  rng = Capex_Prov!A2 
+

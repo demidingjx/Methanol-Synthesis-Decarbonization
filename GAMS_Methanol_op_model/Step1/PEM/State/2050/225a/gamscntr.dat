@@ -1,0 +1,222 @@
+53
+2 631 0 0 476  0.00000000000000E+0000 5  0.00000000000000E+0000 0 1
+2348164 0 0 0 560563 1032106 174225 1141833 0 0 0 0
+2117883 0 0 0 0 0 0 1
+7756952 0
+2088492 0 29391 0 0 0 0 2088194 0 298
+404 0 0 0 0 0 0
+0 1155 0
+0 0 20
+ 2.00000000000000E-0002  0.00000000000000E+0000 0
+0  0.00000000000000E+0000 0  0.00000000000000E+0000
+ 2.59200000000000E+0006 2147483647 0
+11 1
+ 0.00000000000000E+0000 0 0 0  1.00000000000000E+0000 0 0 0 0  1.00000000000000E-0005 0
+2117883 100
+0 0 0 0 0
+ 0.00000000000000E+0000  0.00000000000000E+0000  0.00000000000000E+0000  0.00000000000000E+0000  0.00000000000000E+0000
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\225a\gamsmatr.dat
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\225a\gamsinst.dat
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\gurobi.opt
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\225a\gamsstat.dat
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\225a\gamssolu.dat
+
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\225a\gamsdict.dat
+3
+17:26:36
+10/10/25
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\
+D:\GAMS\47\
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\225a\
+32767 2147483647
+0 0 74 45939 45895 62839
+Zuming Liu, Single User License                S250728|0002AO-GEN0
+Shanghai Jiao Tong University, College of Smart Energy           0
+1640169401ATBACOCPGLKNM5SNXX                                     0
+0 1 2348164 0
+225a\gmsprmNT.dat
+15 50 20
+LP          11 0
+MIP         11 20
+RMIP        11 0
+NLP         5 0
+MCP         41 0
+MPEC        35 0
+RMPEC       35 0
+CNS         5 0
+DNLP        5 0
+RMINLP      5 0
+MINLP       15 0
+QCP         5 0
+MIQCP       45 0
+RMIQCP      5 0
+EMP         25 0
+ALPHAECP    11 5 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0
+gmsecpnt.cmd
+gmsecpnx.exe
+ANTIGONE    2011 5 1 0 0 0 1 0 0 0 1 1 1 1 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+BARON       1001 5 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 0
+gmsba_nt.cmd
+gmsba_nx.exe
+CBC         2011 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+gmsgennt.cmd
+gmsgennx.exe
+CONOPT      1 0 1 1 0 1 1 0 0 0 1 1 1 0 1 0 1 0
+gmsgennt.cmd
+gmsgennx.exe
+CONOPT3     1 0 1 1 0 1 1 0 0 0 1 1 1 0 1 0 1 0
+gmsgennt.cmd
+gmsgennx.exe
+CONOPT4     1 0 1 1 0 1 1 0 0 0 1 1 1 0 1 0 1 0
+gmsgennt.cmd optconopt.def
+gmsgennx.exe
+CONVERT     103011 5 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+gmsgennt.cmd optconvert.def
+gmsgennx.exe
+CONVERTOLD  103011 5 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+gmscv_nt.cmd
+gmscv_nx.exe
+COPT        1011 5 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+CPLEX       2011 5 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+DE          102011 5 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+gmsgennt.cmd
+gmsgennx.exe
+DECISC      2011 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+gmsdecnt.cmd optdecis.def
+DECISM      2011 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+gmsdemnt.cmd optdecis.def
+DICOPT      1 5 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0
+gmsdi_nt.cmd
+gmsdi_nx.exe
+EXAMINER    103011 5 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+EXAMINER2   103011 5 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 0
+gmsgennt.cmd optexaminer.def
+gmsgennx.exe
+GAMSCHK     103011 5 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 0
+gmsck_nt.cmd
+gmsck_nx.exe
+GLOMIQO     2011 5 1 0 0 0 1 0 0 0 1 1 1 1 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+GUROBI      11 5 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+GUSS        1001 5 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+HIGHS       11 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+gmsgennt.cmd
+gmsgennx.exe
+IPOPT       11 5 1 1 0 1 1 0 0 0 1 1 1 0 1 0 1 0
+gmsgennt.cmd
+gmsgennx.exe
+IPOPTH      11 5 1 1 0 1 1 0 0 0 1 1 1 0 1 0 1 0
+gmsgennt.cmd optipopt.def
+gmsgennx.exe
+JAMS        101011 5 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+gmsja_nt.cmd
+gmsja_nx.exe
+KESTREL     103010 5 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+gmske_nt.cmd
+KNITRO      103011 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+LINDO       1 5 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 1
+gmsgennt.cmd
+gmsgennx.exe
+LINDOGLOBAL 1 5 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+LOGMIP      101011 5 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+gmsja_nt.cmd optjams.def
+gmsja_nx.exe
+MILES       103001 5 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+gmsmcent.cmd
+gmsmcenx.exe
+MINOS       1 0 1 1 0 1 1 0 0 0 1 1 1 0 1 0 1 0
+gmsgennt.cmd
+gmsgennx.exe
+MOSEK       11 5 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+MPSGE       100001 5 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+gmsgewnt.cmd
+gmsgewnx.exe
+NLPEC       103001 0 1 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0
+gmscvnnt.cmd
+gmscvnnx.exe
+ODHCPLEX    2011 5 1 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0
+gmsgennt.cmd
+gmsgennx.exe
+OSICPLEX    2011 5 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+OSIGUROBI   11 5 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+OSIMOSEK    11 5 1 1 1 1 1 0 0 0 0 1 1 1 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+OSIXPRESS   11 5 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+PATH        103001 5 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0
+gmsgennt.cmd
+gmsgennx.exe
+PATHNLP     11 5 1 1 0 1 1 0 0 0 0 1 1 0 1 0 1 0
+gmsptnnt.cmd
+gmsptnnx.exe
+QUADMINOS   1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+gmsgennt.cmd optminos.def
+gmsgennx.exe
+RESHOP      103011 5 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+gmsgennt.cmd
+gmsgennx.exe
+SBB         11 5 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0
+gmssb_nt.cmd
+gmssb_nx.exe
+SCIP        2001 5 1 0 1 0 1 0 0 0 1 1 1 1 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+SHOT        1001 5 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0
+gmsgennt.cmd
+gmsgennx.exe
+SNOPT       1 0 1 1 0 1 1 0 0 0 1 1 1 0 1 0 1 0
+gmsgennt.cmd
+gmsgennx.exe
+SOPLEX      11 5 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0
+gmsgennt.cmd
+gmsgennx.exe
+XPRESS      11 5 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1 0
+gmsgennt.cmd
+gmsgennx.exe
+1584175220202020202020202020                                     0
+DC16679      g 1                               A Invoice         0
+zmliu@sjtu.edu.cn                                                0
+                                                                 0
+                                                                 0
+1 C:\Users\49252\Documents\GAMS\gamslice.txt
+1 D:\GAMS\47\gmscmpnt.txt
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.dat
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0  1.00000000000000E+0000 0 0
+0 0 0
+0 0 0 1 0
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MeOH.dll
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\225a\sbbinfo.dat
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\225a\gamscntr.dat
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\
+dat
+ 1.00000000000000E+0299
+
+
+E:\2025_Methanol_synthesis\3_GAMS\R28_M12_Review\Step1\PEM\State\2050\MM12_PEM_Update_State_ED75.gms
+ 7.75695200000000E+0006  0.00000000000000E+0000

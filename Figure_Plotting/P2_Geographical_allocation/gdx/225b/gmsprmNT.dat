@@ -1,0 +1,10 @@
+Input=D:\GAMS_optimization\Statewide\Updated_Gams\P3_Geographical_allocation\gdx\Capacity_distribution.gms
+PageSize=0
+ScrDir=225b
+SysDir=D:\GAMS\47
+ScriptNext=225b\gamsnext.cmd
+LogOption=3
+ErrMsg=1
+ErrorLog=99
+IDE=1
+LstTitleLeftAligned=1

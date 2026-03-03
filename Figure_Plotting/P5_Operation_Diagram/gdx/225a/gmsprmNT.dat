@@ -1,0 +1,10 @@
+Input=E:\2025_Methanol_synthesis\3_GAMS\P5_Operation_Diagram\gdx\Operation_PEME_LCOM.gms
+PageSize=0
+ScrDir=225a
+SysDir=D:\GAMS\47
+ScriptNext=225a\gamsnext.cmd
+LogOption=3
+ErrMsg=1
+ErrorLog=99
+IDE=1
+LstTitleLeftAligned=1

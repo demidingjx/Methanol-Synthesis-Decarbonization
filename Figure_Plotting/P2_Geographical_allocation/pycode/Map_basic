@@ -1,0 +1,57 @@
+# -*- coding: utf-8 -*-
+import os, sys
+import geopandas as gpd
+import matplotlib.pyplot as plt
+import matplotlib
+from shapely.geometry import LineString
+
+# —— Windows 控制台 UTF-8 和中文字体设置——
+if os.name=='nt': os.system('chcp 65001 >nul')
+sys.stdout.reconfigure(encoding='utf-8')
+matplotlib.rcParams['font.sans-serif'] = ['SimHei']
+matplotlib.rcParams['axes.unicode_minus'] = False
+
+# —— 文件路径——
+prov_shp = r"D:\GAMS_optimization\Statewide\Updated_Gams\P3_Geographical_allocation\pycode\CN_Map\CN_Province.shp"
+nine_shp = r"D:\GAMS_optimization\Statewide\Updated_Gams\P3_Geographical_allocation\pycode\CN_Map\Jiu_Duan_Xian.shp"
+
+# —— 1. 读取并投影到 EPSG:2343——
+prov = gpd.read_file(prov_shp, engine='fiona', encoding='utf-8').to_crs(epsg=2343)
+nine = gpd.read_file(nine_shp, engine='fiona', encoding='utf-8').to_crs(epsg=2343)
+
+# —— 2. 提取内蒙古——
+im = prov[prov['省']=="内蒙古自治区"]
+
+# —— 3. 计算内蒙古在地理坐标（EPSG:4326）下的南北边界，用于画切分线——
+im_geo = im.to_crs(epsg=4326)
+miny_geo, maxy_geo = im_geo.total_bounds[1], im_geo.total_bounds[3]
+
+# —— 4. 构造 111.5°E 切分线（地理），再投回 EPSG:2343——
+split_line_geo = LineString([(111.5, miny_geo), (111.5, maxy_geo)])
+split_line = gpd.GeoSeries([split_line_geo], crs="EPSG:4326").to_crs(epsg=2343)
+
+# —— 5. 绘图——
+fig, ax = plt.subplots(figsize=(10, 8))
+
+# 底图：各省
+prov.plot(ax=ax, color="lightgray", edgecolor="white", linewidth=0.5, zorder=1)
+
+# 切分线：用 GeoSeries.plot 而不是 add_geometries
+split_line.plot(
+    ax=ax,
+    color="white",       # 同省界颜色
+    linestyle="--",
+    linewidth=1.0,
+    zorder=2
+)
+
+# —— 6. 插入九段线小地图 inset——
+from mpl_toolkits.axes_grid1.inset_locator import inset_axes
+axins = inset_axes(ax, width="25%", height="25%", loc="lower right", borderpad=1)
+prov.plot(ax=axins, color="lightgray", edgecolor="white", linewidth=0.3)
+nine.plot(ax=axins, color="black", linewidth=1.5)
+axins.axis("off")
+
+ax.axis("off")
+plt.tight_layout()
+plt.show()

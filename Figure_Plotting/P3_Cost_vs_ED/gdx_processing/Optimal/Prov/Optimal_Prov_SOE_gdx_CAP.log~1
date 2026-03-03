@@ -1,0 +1,67 @@
+
+--- Job Optimal_Prov_SOE_gdx_CAP.gms Start 07/03/25 13:44:07 47.6.0 c2de9d6d WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    D:\GAMS\47\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Optimal\Prov\Optimal_Prov_SOE_gdx_CAP.gms
+    PageSize 0
+    ScrDir D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Optimal\Prov\225a\
+    SysDir D:\GAMS\47\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+*** License has expired 1 days ago
+Licensee: Eval License                                   S250602|0002AO-GEN
+          Shanghai Jiao Tong University, College of Smart Energy    DCE4318
+          C:\Users\49252\Documents\GAMS\gamslice.txt
+          License Admin: Zuming Liu, zmliu@sjtu.edu.cn                     
+          Evaluation license: Not for commercial or production use
+Processor information: 1 socket(s), 16 core(s), and 24 thread(s) available
+GAMS 47.6.0   Copyright (C) 1987-2024 GAMS Development. All rights reserved
+--- Starting compilation
+--- Optimal_Prov_SOE_gdx_CAP.gms(24) 2 Mb
+--- call csv2gdx D:\GAMS_optimization\Statewide\Updated_Gams\csv_Single_Prov\Provinces.csv  id = j  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Optimal_Prov_SOE_gdx_CAP.gms(25) 2 Mb
+--- GDXin=D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Optimal\Prov\Provinces.gdx
+--- GDX File ($gdxIn) D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Optimal\Prov\Provinces.gdx
+--- Optimal_Prov_SOE_gdx_CAP.gms(29) 3 Mb
+--- call csv2gdx D:\GAMS_optimization\Statewide\Updated_Gams\csv_Single_Prov\Cities.csv  id = ix  index = 1  useHeader = y
+No errors, CSV2GDX time = 15ms
+--- Optimal_Prov_SOE_gdx_CAP.gms(30) 3 Mb
+--- GDXin=D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Optimal\Prov\Cities.gdx
+--- GDX File ($gdxIn) D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Optimal\Prov\Cities.gdx
+--- Optimal_Prov_SOE_gdx_CAP.gms(35) 3 Mb
+--- call csv2gdx D:\GAMS_optimization\Statewide\Updated_Gams\csv_Single_Prov\Cities_w_MeOH.csv  id = i  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Optimal_Prov_SOE_gdx_CAP.gms(36) 3 Mb
+--- GDXin=D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Optimal\Prov\Cities_w_MeOH.gdx
+--- GDX File ($gdxIn) D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Optimal\Prov\Cities_w_MeOH.gdx
+--- Optimal_Prov_SOE_gdx_CAP.gms(74) 3 Mb
+--- GDXin=D:\GAMS_optimization\Statewide\Updated_Gams\GDX2_W52_OP\SOE\2050\ED100\W52_P_SOE_2050_ED100.gdx
+--- GDX File ($gdxIn) D:\GAMS_optimization\Statewide\Updated_Gams\GDX2_W52_OP\SOE\2050\ED100\W52_P_SOE_2050_ED100.gdx
+--- Optimal_Prov_SOE_gdx_CAP.gms(226) 3 Mb
+--- call csv2gdx D:\GAMS_optimization\Statewide\Updated_Gams\csv_Single_Prov\CEF_grid.csv  id = CF_CO2  index = 1  values = 2..lastCol  useHeader = y
+No errors, CSV2GDX time = 15ms
+--- Optimal_Prov_SOE_gdx_CAP.gms(227) 3 Mb
+--- GDXin=D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Optimal\Prov\CEF_grid.gdx
+--- GDX File ($gdxIn) D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Optimal\Prov\CEF_grid.gdx
+--- Optimal_Prov_SOE_gdx_CAP.gms(231) 3 Mb
+--- GDXin=D:\GAMS_optimization\Statewide\Updated_Gams\GDX2_W52_OP\SOE\2050\ED100\W52_P_SOE_2050_ED100.gdx
+--- GDX File ($gdxIn) D:\GAMS_optimization\Statewide\Updated_Gams\GDX2_W52_OP\SOE\2050\ED100\W52_P_SOE_2050_ED100.gdx
+--- Optimal_Prov_SOE_gdx_CAP.gms(271) 23 Mb
+--- $echo File D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Optimal\Prov\Eco_cost.txt
+--- Optimal_Prov_SOE_gdx_CAP.gms(288) 23 Mb
+--- Starting execution: elapsed 0:00:00.172
+--- Optimal_Prov_SOE_gdx_CAP.gms(270) 24 Mb
+--- GDX File (execute_unload) D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Optimal\Prov\All_data_SOE_2050_ED100.gdx
+--- Optimal_Prov_SOE_gdx_CAP.gms(287) 24 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+Input file : D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\gdx_processing\Optimal\Prov\All_data_SOE_2050_ED100.gdx
+Output file: D:\GAMS_optimization\Statewide\Updated_Gams\P2_Cost_vs_ED\Results\SOE\2050\TCB_CAP_P_SOE_2050_ED100.xlsx
+Total time = 2329 Ms
+*** Status: Normal completion
+--- Job Optimal_Prov_SOE_gdx_CAP.gms Stop 07/03/25 13:44:10 elapsed 0:00:02.596

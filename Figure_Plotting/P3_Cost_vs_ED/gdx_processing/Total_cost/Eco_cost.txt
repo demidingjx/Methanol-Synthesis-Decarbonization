@@ -1,0 +1,16 @@
+Text = "Type"                rng = Eco_cost!A1
+Text = "Value"               rng = Eco_cost!B1
+Par = Eco_cost               rng = Eco_cost!A2      rDim = 1
+
+Text = "Type"                rng = CO2_contribution!A1
+Text = "Value"               rng = CO2_contribution!B1
+Par = CO2_cost               rng = CO2_contribution!A2      rDim = 1
+
+Text = "Decarbonization cost"   rng = Decarbonization!A1
+Par = Decar_cost     rng = Decarbonization!B1
+
+Text = 'DLCOR'          rng = LCCR_detial!A1
+Par = DLCOR             rng = LCCR_detial!B1
+
+Text = 'LCE'          rng = LCCR_detial!A2
+Par = RLCCE             rng = LCCR_detial!B2

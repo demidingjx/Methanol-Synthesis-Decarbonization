@@ -1,0 +1,135 @@
+# -*- coding: utf-8 -*-
+import os
+import sys
+
+import geopandas as gpd
+import matplotlib.pyplot as plt
+import matplotlib
+from shapely.geometry import LineString, Point, box
+from shapely.ops import unary_union
+from mpl_toolkits.axes_grid1.inset_locator import inset_axes
+from matplotlib.patches import Rectangle
+
+# ——（0）Windows 控制台切到 UTF-8 & 中文字体设置——
+if os.name == 'nt':
+    os.system('chcp 65001 >nul')
+sys.stdout.reconfigure(encoding='utf-8')
+matplotlib.rcParams['font.sans-serif'] = ['SimHei']
+matplotlib.rcParams['axes.unicode_minus'] = False
+
+# ——（1）文件路径——
+prov_shp = r"D:\GAMS_optimization\Statewide\Updated_Gams\P3_Geographical_allocation\pycode\CN_Map\CN_Province.shp"
+nine_shp = r"D:\GAMS_optimization\Statewide\Updated_Gams\P3_Geographical_allocation\pycode\CN_Map\Jiu_Duan_Xian.shp"
+
+# ——（2）读取省界和九段线——
+prov = gpd.read_file(prov_shp, engine='fiona', encoding='utf-8')
+nine = gpd.read_file(nine_shp, engine='fiona', encoding='utf-8')
+
+# ——（3）投影到地理 CRS (WGS84) 以便切分——
+prov_geo = prov.to_crs(epsg=4326)
+
+# ——（4）在地理 CRS 下提取“内蒙古自治区”并构造 111.5°E 切分线——
+im = prov_geo.loc[prov_geo['省']=="内蒙古自治区", 'geometry'].iloc[0]
+meridian = LineString([(111.5, -90), (111.5, 90)])
+ints = im.boundary.intersection(meridian)
+
+# 把交点收集到列表并按纬度从北到南排序
+pts = []
+if isinstance(ints, Point):
+    pts = [ints]
+else:
+    for g in getattr(ints, 'geoms', []):
+        if isinstance(g, Point):
+            pts.append(g)
+pts = sorted(pts, key=lambda p: p.y, reverse=True)
+
+# ——（5）将交点投影回 EPSG:2343，并构造切分线——
+pts2343 = gpd.GeoSeries(pts, crs=4326).to_crs(epsg=2343)
+north_pt, south_pt = pts2343.iloc[0], pts2343.iloc[1]
+split_line = LineString([(north_pt.x, north_pt.y),
+                         (south_pt.x, south_pt.y)])
+
+# ——（6）将所有图层投影到 EPSG:2343——
+prov_2343 = prov.to_crs(epsg=2343)
+nine_2343 = nine.to_crs(epsg=2343)
+split_gs = gpd.GeoSeries([split_line], crs=prov_2343.crs)
+
+# ——（7）绘制主图——
+# ——（7）绘制主图——
+fig, ax = plt.subplots(figsize=(12, 9))
+prov_2343.plot(ax=ax,
+               facecolor='lightgray',
+               edgecolor='white',
+               linewidth=0.5,
+               zorder=1)
+
+# ——（7.1）高亮东北电网区域——
+ne_provs = ['辽宁省', '吉林省', '黑龙江省', '内蒙古自治区']
+ne_region = prov_2343[prov_2343['省'].isin(ne_provs)]
+merged = unary_union(ne_region.geometry)
+ne_boundary = gpd.GeoSeries([merged.boundary], crs=prov_2343.crs)
+ne_boundary.plot(ax=ax,
+                 edgecolor='red',
+                 linewidth=2.0,
+                 linestyle='-',
+                 zorder=3)
+
+split_gs.plot(ax=ax,
+              color='white',
+              linestyle='--',
+              linewidth=1.2,
+              zorder=2)
+
+ax.axis('off')
+
+
+# ——（8）准备南海小地图的裁剪范围——
+# 地理 CRS 下的经纬度范围
+bbox_geo = box(106.5, 2.8, 123.0, 24.5)
+# 投影到 EPSG:2343
+bbox_2343 = gpd.GeoSeries([bbox_geo], crs=4326).to_crs(epsg=2343).iloc[0]
+
+# ——（9）在 inset 中裁剪并绘制——
+axins = inset_axes(
+    ax,
+    width='20%',
+    height='20%',
+    loc='lower right',
+    bbox_to_anchor=(0.11, 0.27, 1.0, 1.0),
+    bbox_transform=ax.transAxes,
+    borderpad=0
+)
+
+# 裁剪省界 & 九段线
+prov_crop = prov_2343[prov_2343.intersects(bbox_2343)]
+nine_crop = nine_2343[nine_2343.intersects(bbox_2343)]
+
+prov_crop.plot(ax=axins,
+               facecolor='lightgray',
+               edgecolor='white',
+               linewidth=0.5,
+               zorder=1)
+nine_crop.plot(ax=axins,
+               color='gray',
+               linewidth=1.5,
+               linestyle='--',
+               zorder=2)
+
+# 设置 inset 范围为 bbox_2343 的 bounds
+minx, miny, maxx, maxy = bbox_2343.bounds
+axins.set_xlim(minx, maxx)
+axins.set_ylim(miny, maxy)
+
+axins.set_xticks([])
+axins.set_yticks([])
+
+# 黑色外框
+rect = Rectangle((0, 0), 1, 1,
+                 transform=axins.transAxes,
+                 fill=False,
+                 edgecolor='black',
+                 linewidth=1)
+axins.add_patch(rect)
+
+plt.tight_layout()
+plt.show()

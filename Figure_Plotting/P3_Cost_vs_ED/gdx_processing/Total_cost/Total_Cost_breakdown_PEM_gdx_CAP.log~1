@@ -1,0 +1,66 @@
+
+--- Job Total_Cost_breakdown_PEM_gdx_CAP.gms Start 08/15/25 13:30:07 47.6.0 c2de9d6d WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    D:\GAMS\47\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Total_Cost_breakdown_PEM_gdx_CAP.gms
+    PageSize 0
+    ScrDir D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\225c\
+    SysDir D:\GAMS\47\
+    LogOption 3
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+Licensee: Zuming Liu, Single User License                S250728|0002AO-GEN
+          Shanghai Jiao Tong University, College of Smart Energy    DC16679
+          C:\Users\49252\Documents\GAMS\gamslice.txt
+          zmliu@sjtu.edu.cn                                                
+          The maintenance period of the license will expire on Oct 26, 2025
+Processor information: 1 socket(s), 16 core(s), and 24 thread(s) available
+GAMS 47.6.0   Copyright (C) 1987-2024 GAMS Development. All rights reserved
+--- Starting compilation
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(26) 2 Mb
+--- call csv2gdx D:\2025_Methanol_synthesis\GAMS\csv_Single_Prov\Provinces.csv  id = j  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(27) 2 Mb
+--- GDXin=D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Provinces.gdx
+--- GDX File ($gdxIn) D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Provinces.gdx
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(31) 3 Mb
+--- call csv2gdx D:\2025_Methanol_synthesis\GAMS\csv_Single_Prov\Cities.csv  id = ix  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(32) 3 Mb
+--- GDXin=D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Cities.gdx
+--- GDX File ($gdxIn) D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Cities.gdx
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(37) 3 Mb
+--- call csv2gdx D:\2025_Methanol_synthesis\GAMS\csv_Single_Prov\Cities_w_MeOH.csv  id = i  index = 1  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(38) 3 Mb
+--- GDXin=D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Cities_w_MeOH.gdx
+--- GDX File ($gdxIn) D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Cities_w_MeOH.gdx
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(78) 3 Mb
+--- GDXin=D:\2025_Methanol_synthesis\GAMS\GDX4_M12_refine\PEM\2050\ED68\S_PEM_2050_ED68.gdx
+--- GDX File ($gdxIn) D:\2025_Methanol_synthesis\GAMS\GDX4_M12_refine\PEM\2050\ED68\S_PEM_2050_ED68.gdx
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(289) 3 Mb
+--- call csv2gdx D:\2025_Methanol_synthesis\GAMS\csv_Single_Prov\CEF_grid.csv  id = CF_CO2  index = 1  values = 2..lastCol  useHeader = y
+No errors, CSV2GDX time = 0ms
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(290) 3 Mb
+--- GDXin=D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\CEF_grid.gdx
+--- GDX File ($gdxIn) D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\CEF_grid.gdx
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(294) 3 Mb
+--- GDXin=D:\2025_Methanol_synthesis\GAMS\GDX4_M12_refine\PEM\2050\ED68\S_PEM_2050_ED68.gdx
+--- GDX File ($gdxIn) D:\2025_Methanol_synthesis\GAMS\GDX4_M12_refine\PEM\2050\ED68\S_PEM_2050_ED68.gdx
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(333) 11 Mb
+--- $echo File D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Eco_cost.txt
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(349) 11 Mb
+--- Starting execution: elapsed 0:00:00.156
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(332) 11 Mb
+--- GDX File (execute_unload) D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\All_data_PEM_2050_ED68.gdx
+--- Total_Cost_breakdown_PEM_gdx_CAP.gms(348) 11 Mb
+
+GDXXRW           47.6.0 c2de9d6d Sep 12, 2024          WEI x86 64bit/MS Window
+Input file : D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\All_data_PEM_2050_ED68.gdx
+Output file: D:\2025_Methanol_synthesis\GAMS\P2_Cost_vs_ED\Results_new\PEM\2050\TCB_UE_CAP_S_PEM_2050_ED68.xlsx
+Total time = 2640 Ms
+*** Status: Normal completion
+--- Job Total_Cost_breakdown_PEM_gdx_CAP.gms Stop 08/15/25 13:30:10 elapsed 0:00:02.907

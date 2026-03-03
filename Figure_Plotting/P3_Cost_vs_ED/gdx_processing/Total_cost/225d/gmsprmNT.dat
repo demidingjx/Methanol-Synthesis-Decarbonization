@@ -1,0 +1,4 @@
+Input=E:\2025_Methanol_synthesis\3_GAMS\P2_Cost_vs_ED\gdx_processing\Total_cost\Total_Cost_SOE_YR2050_ED100.gms
+ScrDir=225d
+SysDir=D:\GAMS\48\48
+ScriptNext=225d\gamsnext.cmd
