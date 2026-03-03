@@ -21,18 +21,16 @@ The framework enables:
 
 1. Scenario-based system optimization
 
-2. Capacity and cost analysis
+2. Techno-economic analysis
 
-3. Emission accounting
-
-4. Figure reproduction using processed model outputs
+3. Figure reproduction using processed model outputs
 
 
 ------------------------------------------------------------------------
 
 ## 2. Reproduction Workflow
 
-### 2.1 Run Optimization Model (Optional)
+### 2.1 Run Optimization Model
 
 If reproducing optimization from scratch:
 
