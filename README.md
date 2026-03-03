@@ -48,7 +48,7 @@ If reproducing optimization from scratch:
 
 ------------------------------------------------------------------------
 
-### 2.2 --- Generate Figures
+### 2.2 Generate Figures
 
 1.  Navigate to:
 
