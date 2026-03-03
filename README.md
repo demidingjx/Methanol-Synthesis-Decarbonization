@@ -27,24 +27,12 @@ The framework enables:
 
 4. Figure reproduction using processed model outputs
 
-------------------------------------------------------------------------
-
-## 2. Repository Structure
-.
-├── GAMS_input_data/
-│   Model input datasets
-│
-├── GAMS_Methanol_op_model/
-│   Core GAMS optimization model
-│
-└── Figure_Plotting/
-    Python scripts for data processing and figure generation
 
 ------------------------------------------------------------------------
 
-## 3. Reproduction Workflow
+## 2. Reproduction Workflow
 
-### 3.1 Run Optimization Model (Optional)
+### 2.1 Run Optimization Model (Optional)
 
 If reproducing optimization from scratch:
 
@@ -58,11 +46,11 @@ If reproducing optimization from scratch:
 
         GAMS_input_data/
 
-14. The model will generate .gdx output files upon completion.
+4. The model will generate .gdx output files upon completion.
 
 ------------------------------------------------------------------------
 
-### 3.3 --- Generate Figures
+### 2.2 --- Generate Figures
 
 1.  Navigate to:
 
@@ -91,7 +79,7 @@ If reproducing optimization from scratch:
 
 ------------------------------------------------------------------------
 
-## Reproducibility Note
+## 2.3 Reproducibility Note
 
 GDX output files are not included in this GitHub repository due to their size.
 
