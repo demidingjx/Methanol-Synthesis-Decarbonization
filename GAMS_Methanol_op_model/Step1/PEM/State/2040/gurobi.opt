@@ -1,9 +1,0 @@
-method 2
-threads 48
-ScaleFlag 1
-BarHomogeneous 1
-FeasibilityTol 1e-5
-OptimalityTol 1e-5
-BarConvTol 1e-6
-iis 1
-mipstart 0
