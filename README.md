@@ -15,37 +15,30 @@ A formal open-source license will be specified upon acceptance.
 
 ## 1. Project Overview
 
-This repository contains the optimization model and post-processing
-scripts used to generate the results and figures in the associated study
-on electrified methanol production.
+This repository contains the GAMS optimization model and Python post-processing scripts developed for the spatially optimized electrification of methanol production.
 
-The workflow consists of:
+The framework enables:
 
-1.  Input data preparation\
-2.  GAMS-based optimization\
-3.  Export of GDX results\
-4.  Python-based post-processing and figure generation\
-5.  Final figure refinement and export of editable figures
+1. Scenario-based system optimization
+
+2. Capacity and cost analysis
+
+3. Emission accounting
+
+4. Figure reproduction using processed model outputs
 
 ------------------------------------------------------------------------
 
 ## 2. Repository Structure
-
-    .
-    ├── GAMS_input_data/
-    │   Model input datasets
-    │
-    ├── GAMS_Methanol_op_model/
-    │   Core GAMS optimization model
-    │
-    ├── GDX_documents/
-    │   Completed GDX output files from model runs
-    │
-    ├── Figure_Plotting/
-    │   Python scripts for figure generation
-    │
-    └── Origin_Figs_Editable/
-        Final editable figures exported after layout adjustment
+.
+├── GAMS_input_data/
+│   Model input datasets
+│
+├── GAMS_Methanol_op_model/
+│   Core GAMS optimization model
+│
+└── Figure_Plotting/
+    Python scripts for data processing and figure generation
 
 ------------------------------------------------------------------------
 
@@ -65,18 +58,7 @@ If reproducing optimization from scratch:
 
         GAMS_input_data/
 
-4.  GDX output files will be generated upon completion.
-
-------------------------------------------------------------------------
-
-### 3.2 --- Use Provided GDX Outputs
-
-The completed optimization outputs used in the paper are located in:
-
-    GDX_documents/
-
-These files are sufficient to reproduce all reported figures without
-rerunning the optimization model.
+14. The model will generate .gdx output files upon completion.
 
 ------------------------------------------------------------------------
 
@@ -96,8 +78,10 @@ rerunning the optimization model.
         ../GDX_documents/
 
 3. Python scripts located in each folder are used to 
-    (1) Read the processed Excel files; (2) Perform data aggregation and transformation;
-    (3) Calculate derived indicators; (4) Organize data for visualization
+    (1) Read the processed Excel files; 
+    (2) Perform data aggregation and transformation;
+    (3) Calculate derived indicators; 
+    (4) Organize data for visualization
     Detailed instructions for individual procedures can be found in the README file within
     each subfolder.
 
@@ -107,9 +91,12 @@ rerunning the optimization model.
 
 ------------------------------------------------------------------------
 
-### Step 4 --- Final Figure Editing
+## Reproducibility Note
 
-Final layout adjustments (if required) are performed in PowerPoint, and editable versions are exported to:
+GDX output files are not included in this GitHub repository due to their size.
 
-    Origin_Figs_Editable/
+The complete model outputs used in the manuscript are archived on Zenodo and will be made publicly available upon formal publication of the associated article.
 
+The Zenodo record includes all processed model outputs necessary to reproduce the reported results and figures.
+
+The DOI will be provided upon publication.
